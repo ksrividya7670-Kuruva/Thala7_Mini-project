@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment-section</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <p>Checkout</p>
+            <h3>Contact Details</h3>
+            <label for="">Email ID</label><input type="email" placeholder="John Doe" id="ei">
+            <h3>Payment</h3>
+             <div class="payment-box">
+      
+                <div class="payment-methods">
+                    <button>💳 Card</button>
+                    <button>₿ Crypto</button>
+                    <button>🏦 Bank</button>
+                    <button> ⋮</button>
+                </div>
+                <label for="">Card Number</label><input type="text" placeholder="John Doe" id="cn">
+            <div class="sub"> 
+                <div class="sub-inp"> 
+                <label for="" >Expiry</label><input type="date" placeholder="MM/YY">
+                <label for="" >CVC</label><input type="password" placeholder="...">
+                </div>
+                <div class="sub-inp"> 
+                    <label for=""> Country </label>
+                 <select name="" id="">
+                    <option value="">India</option>
+                    <option value="">UK</option>
+                    <option value=""> US</option>
+                    <option value=""> LONDON</option>
+                    <option value=""> JERMANY</option>
+                    <option value=""> EUROP</option>
+                    <option value="">AFRICA</option>
+                 </select>
+                 
+                <label for="" >Zip</label><input type="text" placeholder="xxxx">  
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <h2>Order Summary</h2>
+            <div class="coupon">
+                <label for="">Enter coupon Code</label> <div class="ac"> <input type="number" placeholder="COUPON CODE" > <button>Apply Coupon</button></div>
+                <div class="price"> <p>Sub Total</p><span>₹4,700</span></div> 
+                <div class="price"> <p>Taxes (if applicable) </p><span>₹199</span></div>
+                <div class="price"> <p>Discount</p><span>₹0</span></div>
+                <div class="price"> <strong>Total</strong> <strong>  <span>₹4,999</span></strong></div>
+            </div> 
+            <button class="btn">Pay Now ₹4,999</button>
+            <div class="payment-type">
+                <ul>
+                    <li><a href="">💳</a></li>
+                    <li><a href="">🏦</a></li>
+                    <li><a href="">💸</a></li>
+                </ul>  
+            </div>
+    </div>
+</body>
+</html>
